@@ -124,7 +124,7 @@ nav {
 
 
 .letter{
-    transition: all .4s ease-in-out;
+    transition: all .4s ease-out;
 }
 
 .letter:hover{
