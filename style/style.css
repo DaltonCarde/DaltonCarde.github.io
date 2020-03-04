@@ -278,7 +278,7 @@ img.laptop:hover{
     justify-content: left;
     background-color: #1c1d1d;
     padding: 2rem;
-    width: 45%;
+    /* width: 45%; */
     margin-bottom: 2.2rem;
 }
 
@@ -384,13 +384,16 @@ img.laptop:hover{
     }
     .container-a{
         padding: 2rem;
-        width: 80%;
+        /* width: 80%; */
     }
 }
 
 @media screen and (max-width: 1150px){
     .text-ab{
         padding-right: 2rem;
+    }
+    .heading{
+        font-size: 9rem;
     }
 }
 
@@ -401,11 +404,41 @@ img.laptop:hover{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* PROJECTS */
 
+.projects{
+    
+}
+
+
 .holder-1{
+    background-image:linear-gradient(0deg, rgba(28,29,29,.99) 0%, rgba(28,29,29,.995) 100%), url('/img/codepic1.png');
+    background-size: auto;
+    background-position: top;
+    background-repeat: no-repeat;
     background-color: #1c1d1d;
     padding: 2rem;
+   
 }
 
 .heading-align h2{
@@ -426,25 +459,19 @@ img.laptop:hover{
 
 
 .proj-img img{
-    display: block;
-    opacity: .025;
-    overflow: hidden; 
-    position: absolute; 
-    padding: 1rem;
-    height: 100%;
-    width: auto;
+
 }
 
 
 .proj-con{
     padding: 2rem;
-    margin: 2rem;
+    /* margin: 2rem; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     align-items: center;
     justify-content: center;
-    position: relative;
+    /* position: relative; */
     margin-top: 4rem;
 }
 
@@ -452,6 +479,7 @@ img.laptop:hover{
     background-color: #362f42;
     border-radius: 8px;
     transition: all .4s ease-in-out;
+    max-width: 675px;
 }
 
 .project-card:hover{
@@ -515,10 +543,12 @@ img.laptop:hover{
 
 
 
-@media screen and (max-width: 1050px){
+@media screen and (max-width: 1150px){
     .proj-con{
-      grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(2, 2fr);
       margin: 0;
+      padding-left: 8rem;
+      padding-right: 8rem;
     }
     .proj-img img{
         display: none;
@@ -530,10 +560,33 @@ img.laptop:hover{
     }
   }
   
+  @media screen and (max-width: 925px){
+    .proj-con{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        max-width: 90%;
+        align-content: center;
+        margin-left: 1rem;
+      }
+      .heading-p{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 6rem;
+    }
+    .heading-align h2{
+        text-align: center; 
+    }
+  }
+
+
   @media screen and (max-width: 500px){
     .proj-con{
       grid-template-columns: repeat(1, 1fr);
       margin: 0;
+      padding-left: 2rem;
+      padding-right: 2rem;
     }
   }
 
@@ -635,6 +688,10 @@ img.laptop:hover{
       width: 100%;
       max-width: 300px;
       margin: 10px 0;
+    }
+    .contact-h{
+        font-size: 4.5rem;
+        text-align: center;
     }
   }
   
