@@ -124,11 +124,13 @@ nav {
 
 
 .letter{
-    transition: all .4s ease-out;
+    transition: all .2s ease;
+    display: inline-block;
 }
 
 .letter:hover{
     color: #6ec0c9;
+    transform: scale(1.15);
 }
 
 .container{
@@ -399,18 +401,22 @@ img.laptop:hover{
     border-radius: 20px;
     padding: .25rem;
     transition: all .3s ease-in;
+    display: inline-block;
 }
 
 .view-site:hover{
     background-color: #6ec0c9; 
+    transform: scale(1.05);
 }
 
 .view-code{
     transition: all .3s ease-in;
+    display: inline-block;
 }
 
 .view-code:hover{
     color: #6ec0c9; 
+    transform: scale(1.05);
 }
 
 
