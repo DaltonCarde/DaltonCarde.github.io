@@ -93,7 +93,12 @@ nav {
 }
 
 
-
+@media screen and (max-width: 450px){
+    nav{
+      flex-direction: column;
+      max-height: none;
+    }
+  }
 
 
 
@@ -246,7 +251,15 @@ img.laptop:hover{
     }
 }
 
-
+@media screen and (max-width: 400px){
+    .title{
+        font-size: .9rem;
+    }
+    .sub-title{
+        font-size: .5rem;
+        padding-bottom: .7rem;
+    }
+}
 
 
 
@@ -278,7 +291,6 @@ img.laptop:hover{
     justify-content: left;
     background-color: #1c1d1d;
     padding: 2rem;
-    /* width: 45%; */
     margin-bottom: 2.2rem;
 }
 
@@ -290,7 +302,6 @@ img.laptop:hover{
     background-color: #1c1d1d;
     padding: 2rem 2rem 4rem 2rem;
     width: 55%;
-    margin-left: 3em;
 }
 
 .heading{
@@ -403,7 +414,11 @@ img.laptop:hover{
     }
 }
 
-
+@media screen and (max-width: 650px){
+    .container-a{
+        
+    }
+}
 
 
 
