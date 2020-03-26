@@ -101,6 +101,8 @@ nav {
     }
   }
 
+
+
   @media screen and (max-width: 420px){
     .nav-links a{
        font-size: .7rem;
@@ -110,6 +112,11 @@ nav {
     }
   }
 
+  @media screen and (max-width: 329px){
+    .nav-links a{
+        font-size: .6rem;
+    }
+  }
 
 
 
@@ -435,7 +442,21 @@ img.laptop:hover{
 
 @media screen and (max-width: 550px){
     .heading{
-      font-size: 6rem;  
+      font-size: 6rem; 
+      text-align: center; 
+    }
+    .heading-s{
+        font-size: 4rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 385px){
+    .heading{
+      font-size: 4rem; 
+      text-align: center; 
+      opacity: .2;
+
     }
 }
 
@@ -454,13 +475,8 @@ img.laptop:hover{
 
 
 
-
-
 /* PROJECTS */
 
-.projects{
-    
-}
 
 
 .holder-1{
@@ -485,13 +501,6 @@ img.laptop:hover{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: 'Roboto', sans-serif;
-}
-
-
-
-
-.proj-img img{
-
 }
 
 
@@ -589,6 +598,10 @@ img.laptop:hover{
         padding-left: 1rem;
         padding-right: 1rem;
         font-size: 8rem;
+        text-align: center;
+    }
+    .heading-align{
+        text-align: center;
     }
   }
   
@@ -612,15 +625,45 @@ img.laptop:hover{
     }
   }
 
+  @media screen and (max-width: 550px){
+    .heading-p{
+      font-size: 4rem; 
+      text-align: center; 
+      padding: 1rem;
+    }
+}
 
   @media screen and (max-width: 500px){
-    .proj-con{
+    div.proj-con{
       grid-template-columns: repeat(1, 1fr);
-      margin: 0;
-      padding-left: 2rem;
-      padding-right: 2rem;
+      width: 100%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin-right: none;
     }
   }
+
+  @media screen and (max-width: 400px){
+    .heading-p{
+      font-size: 3rem;
+      text-align: center; 
+      padding: 1rem;
+      opacity: .1;
+
+    }
+}
+
+@media screen and (max-width: 375px){
+    div.holder-1{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+
+
 
 
 
@@ -728,7 +771,12 @@ img.laptop:hover{
   }
   
 
-
+  @media screen and (max-width:400px) {
+    .contact-h{
+        font-size: 3rem;
+        text-align: center;
+    }
+  }
 
 
 
