@@ -144,6 +144,7 @@ nav {
     cursor: context-menu;
     font-size: 1.7rem;
     font-family: 'Raleway', sans-serif;
+    overflow: hidden;
 }
 
 .name{
@@ -286,8 +287,6 @@ img.laptop:hover{
 
 
 
-
-
 /* About */
 
 .holder{
@@ -331,7 +330,7 @@ img.laptop:hover{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 11.8rem;
-    opacity: .03;
+    opacity: .03 !important;
 }
 
 .text-ab{
@@ -365,7 +364,7 @@ img.laptop:hover{
     text-align: center;
     font-size: 6.8rem;
     margin-top: 0rem;
-    opacity: .1;
+    opacity: .1 !important;
 }
 
 .underline{
@@ -497,7 +496,7 @@ img.laptop:hover{
     padding-top: 3rem;
     color: #dfe6e9;
     font-size: 10.8rem;
-    opacity: .06;
+    opacity: .06 !important;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-family: 'Roboto', sans-serif;
@@ -519,12 +518,12 @@ img.laptop:hover{
 .project-card{
     background-color: #362f42;
     border-radius: 8px;
-    transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out ;
     max-width: 675px;
 }
 
 .project-card:hover{
-    transform: scale(1.07);
+    transform: scale(1.07) !important;
 }
 
 .p2-title{
@@ -696,7 +695,7 @@ img.laptop:hover{
     text-align: center;
     font-size: 6.8rem;
     margin-top: 2rem;
-    opacity: .1;
+    opacity: .1 !important;
 }
 
 
@@ -735,6 +734,7 @@ img.laptop:hover{
     line-height: 60px !important;
     border-radius: 50%;
     transition: 0.3s linear;
+    opacity: .65 !important
   }
   
   .card:hover .card-icon{
