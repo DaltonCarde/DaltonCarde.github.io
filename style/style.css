@@ -337,11 +337,11 @@ img.laptop:hover{
     color: #dfe6e9;
     text-align: left;
     width: 100%;
-    line-height: 1.5;
+    line-height: 2;
     letter-spacing: 1px;
     font-family: 'Muli', sans-serif;
     font-weight: 200;
-    font-size: .86rem;
+    font-size: .9rem;
     padding-left: 5rem;
 }
 
